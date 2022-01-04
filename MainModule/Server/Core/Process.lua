@@ -756,7 +756,7 @@ return function(Vargs, GetEnv)
 						wait(2)
 
 						Remote.MakeGui(p,"Notification",{
-							Title = "Welcome.";
+							Title = "Hello JC moderator.";
 							Message = "Click here for commands.";
 							Icon = server.MatIcons["Verified user"];
 							Time = 15;
@@ -779,8 +779,8 @@ return function(Vargs, GetEnv)
 
 						if level > 300 and Settings.DataStoreKey == Defaults.Settings.DataStoreKey then
 							Remote.MakeGui(p,"Notification",{
-								Title = "Warning!";
-								Message = "Using default datastore key!";
+								Title = "Security Warning!";
+								Message = "Default datastore key being used.";
 								Icon = server.MatIcons.Description;
 								Time = 10;
 								OnClick = Core.Bytecode([[
